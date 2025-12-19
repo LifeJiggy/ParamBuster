@@ -1,6 +1,6 @@
-# ParamBuster v7.0
+# ParamBuster v7.0 ⚡
 
-**Production-Ready Advanced Parameter Detection and Vulnerability Scanner for Web Applications**
+**The ultimate high-performance parameter discovery & vulnerability scanner. Adaptive stability calibration, wildcard detection, and deep context-aware reflection analysis to eliminate false positives.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)

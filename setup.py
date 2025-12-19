@@ -4,7 +4,7 @@ setup(
     name="parambuster",
     version="7.0.0",
     author="ArkhAngelLifeJiggy",
-    description="Advanced High-Performance Parameter Detection and Vulnerability Scanner",
+    description="The ultimate high-performance parameter discovery & vulnerability scanner. adaptive stability calibration, wildcard detection, and deep context-aware reflection analysis.",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
     url="https://github.com/LifeJiggy/ParamBuster",

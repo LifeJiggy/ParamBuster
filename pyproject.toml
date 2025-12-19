@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "parambuster"
 version = "7.0.0"
-description = "Advanced High-Performance Parameter Detection and Vulnerability Scanner"
+description = "The ultimate high-performance parameter discovery & vulnerability scanner. adaptive stability calibration, wildcard detection, and deep context-aware reflection analysis."
 authors = [{name = "ArkhAngelLifeJiggy"}]
 license = {text = "MIT"}
 readme = "README.md"
