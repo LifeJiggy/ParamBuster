@@ -1,0 +1,16 @@
+ParamBuster/
+├── ParamBuster.py          # Main application
+├── README.md              # Comprehensive documentation
+├── CONTRIBUTING.md        # Contribution guidelines
+├── LICENSE                # MIT License
+├── requirements.txt       # Production dependencies
+├── requirements-dev.txt   # Development dependencies
+├── Dockerfile            # Container deployment
+├── docker-compose.yml    # Orchestration
+├── .dockerignore         # Docker optimization
+├── tests/                # Test suite
+│   ├── __init__.py
+│   └── test_basic.py
+├── lists/                # Payload directories
+├── strong_wordlist/      # Parameter wordlists
+└── payload-dir/          # Custom payloads

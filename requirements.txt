@@ -1,0 +1,7 @@
+requests
+beautifulsoup4
+fake-useragent
+urllib3
+colorama
+selenium
+webdriver-manager

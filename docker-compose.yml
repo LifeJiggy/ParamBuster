@@ -1,0 +1,38 @@
+version: '3.8'
+
+services:
+  parambuster:
+    build: .
+    container_name: parambuster
+    volumes:
+      - ./output:/app/output
+      - ./custom_payloads:/app/custom_payloads:ro
+      - ./custom_wordlists:/app/custom_wordlists:ro
+    environment:
+      - PYTHONUNBUFFERED=1
+    command: ["-u", "https://httpbin.org", "--threads", "5", "-o", "/app/output/test_results.json"]
+    networks:
+      - parambuster-network
+
+  parambuster-interactive:
+    build: .
+    container_name: parambuster-interactive
+    volumes:
+      - ./output:/app/output
+      - ./custom_payloads:/app/custom_payloads:ro
+      - ./custom_wordlists:/app/custom_wordlists:ro
+    environment:
+      - PYTHONUNBUFFERED=1
+    stdin_open: true
+    tty: true
+    networks:
+      - parambuster-network
+
+networks:
+  parambuster-network:
+    driver: bridge
+
+volumes:
+  parambuster-output:
+  parambuster-payloads:
+  parambuster-wordlists:

